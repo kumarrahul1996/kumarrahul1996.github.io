@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<style>
+		body{
+			margin:0;
+			padding: 0;
+			
+		}
+
+		
+		ul{
+			list-style: none;
+			background:#999999;
+			margin:0;
+			padding: 0;
+			overflow: hidden;
+
+		}
+		li{
+			float:left;
+
+		}
+
+		li a{
+			padding: 10px;
+			display:block;
+			color:#fff;
+			text-decoration: none;
+			font-family: arial;
+			font: uppercase;
+
+		}
+		li a:hover,
+		.active{
+			background: #000;
+		}
+
+		table,td{
+		border:1px solid black;
+		border-collapse: collapse;
+
+	}
+
+	table{
+		background: rgba(248,255,184,0.15);
+		color: arial black;
+	}
+	body{
+		background: url(1.jpg); background-size:cover;
+	}
+	h1{
+		color: red;
+	}
+	</style>
+</head>
+<body>
+	
+<ul>
+	<li><a href="index.html" class="active">Home</a></li>
+</ul>
+<form method="POST">
+	<table align="center" cellspacing="7" cellpadding="5" width="80%" bordercolor="red">
+		<caption><marquee><h1>Student Ragistration Form</h1></marquee></caption>
+		<tr>
+			<td width="50%" align="center"><b>First Name</b></td>
+			<td><input type="text" placeholder="First Name"></td>
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Last Name</b></td>
+			<td><input type="text" placeholder="Last Name"></td>
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Gender</b></td>
+			<td><b>Male:</b><input type="radio" name="sex"><b>Female:</b><input type="radio" name="sex"></td>
+			
+		</tr>
+
+		<tr>
+			<td width="50%" align="center"><b>Date of Birth</b></td>
+			<td>
+				<input type="Date">
+				
+			</td>
+			
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Father Name</b></td>
+			<td><input type="text" placeholder="Father Name"></td>
+		</tr>
+
+		<tr>
+			<td width="50%" align="center"><b>Email</b></td>
+			<td><input type="email" placeholder="Email"></td>
+		</tr>
+
+		<tr>
+			<td width="50%" align="center"><b>Website</b></td>
+			<td><input type="url" placeholder="Website"></td>
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Qualification</b></td>
+			<td>
+				<b>10th:<b/><input type="checkbox" name="tenth">
+				<b>12th:</b><input type="checkbox" name="twelth"> 
+				<b>Graduation:</b><input type="checkbox" name="Graduation">
+			</td>
+			
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Father Name</b></td>
+			<td><input type="text" placeholder="Father Name"></td>
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Address1</b></td>
+			<td><input type="input" name="Address1"placeholder="Address1"></td>
+		</tr>
+
+		<tr>
+			<td width="50%" align="center"><b>Address2</b></td>
+			<td><input type="input" name="Address2"placeholder="Address2"></td>
+		</tr>
+
+		<tr>
+			<td width="50%" align="center"><b>Cuntry</b></td>
+			<td>
+				<select>
+					<option value="0">---select Your cuntry---</option>
+					<option value="1">India</option>
+					<option value="2">Pakistan</option>
+					<option value="3">Australia</option>
+					<option value="4">America</option>
+					<option value="5">Chaina</option>
+					<option value="6">Brazil</option>
+					<option value="7">West Indies</option>
+					<option value="8">New York</option>
+					<option value="9">Zimbabo</option>
+				</select>
+			</td>
+		</tr>
+<tr>
+			<td width="50%" align="center">
+				<b>Mobile no. :</b>
+			</td>
+			<td>
+				<select>
+					<option>+91</option>
+					<option>+92</option>
+					<option>+93</option>
+					<option>+94</option>
+					<option>+95</option>
+				</select>
+				<input type="phone" placeholder="movile no." name="">
+			</td>
+		</tr>
+		<tr>
+			<td width="50%" align="center"><b>Message</b></td>
+			<td cols="30"><textarea></textarea></td>
+		</tr>
+
+		<tr>
+			<td align="center" colspan="2">
+				<input type="button" value="Submit">
+			</td>
+		</tr>
+
+	</table>
+</form>
+</body>
+</html>
